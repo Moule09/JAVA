@@ -1,0 +1,20 @@
+import java.lang.*;
+import java.util.*;
+public class Array {
+
+	public static void main(String[] args) {
+		//int [] arr=new int[]{1,2,3,4,5};
+		int [] arr= {1,2,3,4,5};
+		//initially the value of array of each index value is zero
+		System.out.println(Arrays.toString(arr));
+		//printing array elements using enhanced for loop
+		for(int x:arr) {
+			System.out.println(x);
+		}
+    //Array class has lot of method
+    //sort()--used to sort the array
+    //length--used to return the length of array
+    //and so on...
+	}
+
+}
