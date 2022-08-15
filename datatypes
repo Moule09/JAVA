@@ -1,0 +1,21 @@
+import java.util.*;
+public class datatypes{
+	public static void main(String args[]) {
+		int x=10;//4 bytes
+		int u=80;
+		float y=10.2F;//4 bytes
+		double z=100.6;//8 bytes
+		long g=100000000000L;//8 bytes
+		x=u;
+		u=90;
+		System.out.println(x);
+		System.out.println(u);	
+		byte r=10;//1 bytes
+		System.out.println(r);
+		char v='A';//2 bytes
+		System.out.println(v);
+		boolean i=true;
+		System.out.println(i);
+		
+	}
+}
