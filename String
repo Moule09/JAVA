@@ -1,0 +1,50 @@
+import java.util.*;
+import java.io.*;
+import java.lang.*;
+
+public class strings {
+	public static void main(String[] args) {
+		String s = "Hello";
+		/*
+		 * JAVA STRING ARE IMMUTABLE
+		 * 
+		 */
+		System.out.println(s);
+		// concatenation
+		s = s + " " + "Guys";
+		System.out.println(s);
+		// string class has lot of methods
+		// length()-return the length of string variable
+		System.out.println(s.length());
+		// chatAt()-return the character at specified index
+		System.out.println(s.charAt(0));
+		// concat()-append a string to end of another string
+		// return string
+		String s1 = " i am ____";
+		System.out.println(s.concat(s1));
+
+		// toLowerCase() and toUpperCase()
+		// toLowerCase()-covert a string to lower case
+		System.out.println(s.toLowerCase());
+		// toUpperCase()-covert a string to Upper case
+		System.out.println(s.toUpperCase());
+		/*
+		 * startsWith()-Checks whether a string starts with specified characters return
+		 * boolean parameter is A String
+		 */
+		System.out.println(s.startsWith("H"));
+		//endswith()-same like startsWith() but it checks at end of the string
+		System.out.println(s.endsWith("ys"));
+		//indexOf()-Returns the position of the first found occurrence of specified
+		//characters or sequence of characters in a string otherwise it returns -1
+		System.out.println(s.indexOf("Hel"));
+		/*
+		 *replace()-returns a new String 
+		 *it does not modifies the original String because String is immutable
+		 */
+		System.out.println(s.replace("ll","ji"));
+		System.out.println(s);
+    //still lot of methods are available		
+	}
+
+}
