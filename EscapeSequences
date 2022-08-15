@@ -1,0 +1,21 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+public class EscapeSequences {
+
+	public static void main(String[] args) {
+		//double quotes
+		String message="hello\"guys\"";
+		System.out.println(message);
+		//new line
+		String s="hello\ngood morning";
+		System.out.println(s);
+		//single quotes
+		String g="hello \'guys\'";
+		System.out.println(g);
+		//\\
+		String h="\\o";
+		System.out.println(h);
+	}
+
+}
