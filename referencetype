@@ -1,0 +1,17 @@
+import java.awt.Point;
+import java.util.*;
+public class referencetype {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//reference types
+		//point to same location
+		int x=10;
+		int y=20;
+		Point p=new Point(x,y);
+		System.out.println(p);
+		Point p1=p;
+		p1.x=100;
+		System.out.println(p1);
+	}
+
+}
